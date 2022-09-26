@@ -16,7 +16,7 @@ const SocialIcon: FC<Props> = ({ sm }) => {
         "
     >
       <img
-        src={sm.image}
+        src={process.env.NEXT_PUBLIC_ASSET_PREFIX!+sm.image}
         alt={"Social media icon"}
         className="w-16 transition-all duration-1000 social-icon"
       />
