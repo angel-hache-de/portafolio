@@ -18,7 +18,7 @@ const About = () => {
       >
         {/* Blob image */}
         <img
-          src="/blob.svg"
+          src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX!}/blob.svg`}
           alt="blob"
           className="
           -left-[25rem] -translate-y-1/4
