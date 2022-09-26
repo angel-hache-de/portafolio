@@ -4,6 +4,7 @@ import type { NextPage } from "next";
 import Header from "../components/Header";
 import ShortInfoPhoto from "../components/ShortInfoPhoto";
 
+
 import animations from "../styles/Animations.module.css";
 
 import About from "../components/About";
@@ -33,9 +34,7 @@ const Home: NextPage = () => {
       <Header showBackColor={scrollPosition > 30} />
 
       <div className="overflow-x-hidden -my-12">
-        <section
-          className={`min-h-screen w-screen relative pt-10 flex items-center`}
-        >
+        <section className={`min-h-screen w-screen relative pt-10 flex items-center`}>
           <div className="absolute top-0 left-0 -z-10 h-full w-full overflow-hidden">
             <div className={animations.bubbles}>
               <img src="/rrrainbow.svg" alt="back" className="w-full" />

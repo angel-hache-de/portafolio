@@ -29,7 +29,7 @@ const Header: FC<Props> = ({ showBackColor }) => {
             md:basis-1/3 justify-start basis-full"
       >
         <Image
-          src="https://tse2.mm.bing.net/th?id=OIP.d4YOrL9_RwxXRd0RKAaShAHaEK&pid=Api"
+          src="/me.jpeg"
           alt="Me"
           className="rounded-full !hidden md:!block"
           width={45}

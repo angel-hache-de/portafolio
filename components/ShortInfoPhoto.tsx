@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import BlurAnimatedText from "./BlurAnimatedText";
 
 const ShortInfoPhoto = () => {
@@ -15,13 +16,14 @@ const ShortInfoPhoto = () => {
       </div>
 
       {/* PHOTO */}
-      <div className="h-40 w-40 sm:h-52 sm:w-52 md:h-60 md:w-60 lg:w-72 lg:h-72 xl:w-96 xl:h-96">
-        <img
-          src="https://tse2.mm.bing.net/th?id=OIP.d4YOrL9_RwxXRd0RKAaShAHaEK&pid=Api"
+      <div className="relative
+        h-40 w-40 sm:h-52 sm:w-52 md:h-60 md:w-60 lg:w-72 lg:h-72
+        xl:w-96 xl:h-96">
+        <Image 
+          src="/me.jpeg"
           alt="Me"
-          className="w-full h-full rounded-full"
-          //width={25}
-          //height={25}
+          layout="fill"
+          className="rounded-full"
         />
       </div>
     </section>

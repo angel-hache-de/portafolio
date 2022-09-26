@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
@@ -15,7 +16,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-parallax": "^3.5.1",
-    "react-slideshow-image": "^4.0.5"
+    "react-slideshow-image": "^4.0.5",
+    "sharp": "^0.31.0"
   },
   "devDependencies": {
     "@types/node": "18.7.11",
