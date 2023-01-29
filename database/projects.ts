@@ -17,6 +17,7 @@ export enum SOCIAL_URL {
 }
 
 export enum TECH_PICURL {
+  ANGULAR = "/icons/angular-icon.svg",
   CSS = "/icons/css-icon.svg",
   CYPRESS = "/icons/cypress-io-icon.svg",
   FIREBASE = "/icons/firebase-icon.svg",
@@ -51,6 +52,7 @@ export const softSkills: SoftSkill[] = [
 ];
 
 export const technologies: Technology[] = [
+  { name: "Angular", image: TECH_PICURL.ANGULAR },
   { name: "CSS", image: TECH_PICURL.CSS },
   { name: "Cypress", image: TECH_PICURL.CYPRESS },
   { name: "HTML", image: TECH_PICURL.HTML },
@@ -81,6 +83,25 @@ export const socialMedia: SocialMedia[] = [
 ];
 
 export const projects: Project[] = [
+  {
+    name: "KOBD",
+    description: "KOBD is a startup whose mission is to provide to the users historical information about boxing. I worked as frontend dev.",
+    images: [
+      "kobd1.png",
+      "kobd2.png",
+      "kobd3.png",
+      "kobd4.png",
+      "kobd5.png",
+      "kobd6.png",
+      "kobd7.png",
+      "kobd8.png",
+    ],
+    techs: [
+      TECH_PICURL.ANGULAR,
+      TECH_PICURL.TYPESCRIPT,
+      TECH_PICURL.TAILWIND,
+    ],
+  },
   {
     name: "Amazon clone",
     description: "Amazon clone with shopping cart and orders screens",
